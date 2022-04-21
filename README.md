@@ -3,7 +3,6 @@ How to Make the Windows 11 Taskbar Black (#000000)
 
 This is a simple open source script which changes the color of the Windows taskbar to solid black (#000000).
 It's an open-source alternative to the "PureDark" executable released by ceofix.net. 
-Simply run the "taskbar-blackener.vbe" file and enjoy!
 
 Additionally supports Windows 8, 8.1, and 10 as well!
 
