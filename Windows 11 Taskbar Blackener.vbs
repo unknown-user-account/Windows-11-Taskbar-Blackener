@@ -133,7 +133,7 @@ Dim WshShell, BtnCode
 Set WshShell = WScript.CreateObject("WScript.Shell")
 
 BtnCode = WshShell.Popup("Start Menu, Taskbar, Action center,Title Bars" & vbNewLine & vbNewLine & _
-"and Window borders colors has been changed to black" ,0, "www.ceofix.net")
+"and Window borders colors has been changed to black" ,0, "www.github.com/unknown-user-account/Windows-11-Taskbar-Blackener")
 
 Function RefreshExplorer()
 '------------------------------------------------
