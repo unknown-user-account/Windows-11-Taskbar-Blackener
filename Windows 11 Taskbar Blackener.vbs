@@ -114,7 +114,7 @@ Function RequireAdmin()
 	Set Cmd = WScript.Arguments
 	For I = 0 to Cmd.Count - 1
 		If Cmd(I) = "/admin" Then
-			Wscript.Echo "To script you must have administrator rights!"
+						Wscript.Echo "This script requires Administrator priveleges to execute."
 			'RequireAdmin = 0
 			'Exit Function
 			WScript.Quit
@@ -132,13 +132,10 @@ End Function
 Dim WshShell, BtnCode
 Set WshShell = WScript.CreateObject("WScript.Shell")
 
-BtnCode = WshShell.Popup("Start Menu, Taskbar, Action center,Title Bars" & vbNewLine & vbNewLine & _
-"and Window borders colors has been changed to black" ,0, "www.github.com/unknown-user-account/Windows-11-Taskbar-Blackener")
+			BtnCode = WshShell.Popup("Start Menu, Taskbar, Action Center, Title Bars" & vbNewLine & vbNewLine & _
+			"and Window Borders color has been set to black." ,0, "www.github.com/unknown-user-account/Windows-11-Taskbar-Blackener")
 
 Function RefreshExplorer()
-'------------------------------------------------
-'Refresh explorer
-'------------------------------------------------
 	dim strComputer, objWMIService, colProcess, objProcess 
 	strComputer = "."
 	'Get WMI object 
